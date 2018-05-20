@@ -1,0 +1,189 @@
+*{font-size:20pt;}
+
+.h3, h3{text-align: center; margin-top: 5%; margin-bottom:5%;
+font-family: 'Hi-melody', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size:2rem;
+border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-style: dashed dotted;
+    border-color: #000 #090 #900 #009;
+    border-radius:10px;
+    background: rgb(1,165,254);}
+    
+    
+/*.fill {
+	background: -webkit-linear-gradient(left, #ff1053 0%, #ff4f0f 100%);
+	background: linear-gradient(to right, #ff1053 0%, #ff4f0f 100%);
+	
+	background-image: url(bandeiras1.jpg);
+	background-size: contain;
+	
+	
+
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}*/
+
+p{text-align: center; margin-top: 5%;
+font-family: 'Hi Melody', cursive;
+font-size:60px;
+border-top-width: 3px;
+    border-top-style: solid;
+    border-top-color: #000;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-bottom-color: #000;
+    border-style: dashed dotted;
+    border-radius:10px;
+    background: rgb(1,165,254);}
+
+.conteudo{text-align: center; 
+background: rgb(41,191,254);
+margin-left:10%;
+margin-right:10%;
+padding-bottom:70px;
+border-radius:10px;
+margin-top:10%;
+padding-top: 50px;
+padding-right: 50px;}
+
+.conteudoA{text-align: center; 
+background: rgb(41,191,254);
+margin-left:10%;
+margin-right:10%;
+padding-bottom:10px;
+border-radius:10px;}
+
+.conteudoB{text-align: center; 
+background: rgb(41,191,254);
+padding-top:10px;
+padding-bottom:10px;
+margin-left:0%;
+margin-right:0%;
+border-radius:10px;
+padding-right: 0px;}
+
+.conteudoC{text-align: center; 
+background: rgb(41,191,254);
+margin-left:0%;
+margin-right:37%;
+border-radius:10px;
+padding-right: 10px;}
+
+body{background:url(img_pais.jpg);}
+
+input{border-radius:10px;}
+
+.enviar{display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	}
+	
+.limpar{display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+	}
+
+.button:hover {background-color: #004080}
+
+ .enviar:active {
+  background-color: #004080;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.limpar:active {
+  background-color: #ff0000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.enviar:hover{background-color: #004080;}
+.limpar:hover{background-color: #ff0000;}
+
+/*---------------------------------------MENU-----------------------------------------------------------*/
+
+.cabecalho{
+	background-image: url(bandeirasgif.gif);
+	transition-duration: 1s;
+	background-size: 100%;
+	color:#fff;
+	box-shadow: 0 10px #999;
+	border-radius: 0px 0px 15px 15px;
+	border: none;
+	text-align:center;
+	}
+	
+.p1{color:#fff; font-size:30pt; text-align:center;}
+.p2:hover{color:blue;}
+.p2{color:#fff; font-size:30pt;text-align:center;}
+.p2:hover{color:yellow;}
+.p3{color:#fff; font-size:30pt;text-align:center;}
+.p3:hover{color:red;}
+.p4{color:#fff; font-size:30pt;text-align:center;}
+.p4:hover{color:green;}
+
+.menu {
+    text-align: center; 
+margin-left:5%;
+margin-right:21%;
+padding-bottom:2px;
+border-radius:10px;
+}
+
+
+/*-------------------------Responsivo-----Login------------------------------------*/
+
+
+
+@media all and (max-width: 998px) and (min-width: 768px){
+.col-md-11 {
+	margin-left: 12% !important; max-width:90%;
+}
+.col-md-7{max-width:57.333333%;}
+.menu{margin-right:24%;margin-left:5%;}
+}
+
+@media all and (max-width: 1024px) and (min-width: 998px){
+.col-md-11 {
+	margin-left: 12% !important; max-width:90%;
+}
+.col-md-7{max-width:57.333333%;}
+.menu{margin-right:24%;margin-left:5%;}
+}
+
+@media all and (min-width: 1024px) and (max-width: 1200px){
+.col-md-11 {
+	margin-left: 9% !important; max-width:100%;
+}
+.col-md-7{max-width:55.333333%;}
+.menu{margin-right:-5%;margin-left:4%;}
+}
+
+@media all and (min-width: 1200px){
+	
+.col-md-11 {
+	margin-left: 13% !important; max-width:90%;
+}
+.col-md-7{max-width:55.333333%;}
+.menu{margin-right:8%;margin-left:5%;}
+}
+}
